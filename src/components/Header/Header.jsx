@@ -1,14 +1,18 @@
 import React from "react";
 import "./header-module.css";
+import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <div>
+    <div className="conts">
       <div className="header-content">
-        <div className="navigation-bar"></div>
-        <div className="Title">
-          <p className="white-word">Find Song</p>
-          <span className="lyric-word">Lyric</span>
+        <div className="navigation-bar">
+          <NavBar />
+        </div>
+
+        <div className="header-text">
+          <p className="first-text">LOVE FOR MUSIC?</p>
+          <p className="second-text">Find it all in here</p>
         </div>
 
         <div className="row-lg">

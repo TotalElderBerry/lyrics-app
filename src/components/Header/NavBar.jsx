@@ -4,10 +4,11 @@ import "./header-module.css";
 function NavBar() {
   return (
     <div className="NavBar">
-      <nav class="navbar navbar-dark sticky-top bg-dark">
-        <a class="navbar-brand" href="#">
-          Navbar
-        </a>
+      <nav className="navbar navbar-light">
+        <div className="Title">
+          <h1 className="white-word">Song</h1>
+          <span className="lyric-word">Lyrics</span>
+        </div>
       </nav>
     </div>
   );
