@@ -1,0 +1,83 @@
+@import url(https://fonts.google.com/specimen/Architects+Daughter#glyphs);
+.header-content {
+  background-color: #3aafa9;
+  height: 400px;
+}
+
+.header-content p {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bebas", sans-serif;
+  font-weight: bold;
+  padding: 0;
+}
+
+.white-word {
+  color: white;
+  display: inline;
+  margin: 0;
+}
+
+.lyric-word {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bebas", sans-serif;
+  font-weight: bold;
+  padding: 0;
+  color: #17252a;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.Title {
+  padding: 2em;
+  display: inline;
+}
+
+.input-group {
+  width: 600px;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+
+.input-group input {
+  background-color: rgb(233, 233, 233);
+  border: none;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 665.98px) {
+  .input-group {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400.98px) {
+  .input-group {
+    width: 250px;
+  }
+
+  .header-content p {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    font-family: Bebas;
+  }
+  .header-content {
+    margin: 0;
+    padding: 20px;
+  }
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar {
+  background-color: transparent;
+}
